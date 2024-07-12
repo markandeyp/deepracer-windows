@@ -69,8 +69,8 @@ sudo usermod -a -G docker $(id -un)
 
 ## Configure Deepracer
 
-- Clone DRfC github  repo using `git clone https://github.com/aws-deepracer-community/deepracer-for-cloud.git`
-- Move to the cloned repository using `cd <path>/deepracer-for-cloud`
+- Clone DRfC github  repo using `git clone https://github.com/markandeyp/deepracer-windows.git`
+- Move to the cloned repository using `cd <path>/deepracer-windows`
 - Run `./bin/init.sh -a gpu -c local`. If you don't have a **GPU**, it will automatically switch to **CPU** based configuration.
 
 ## Configure Environment variables/Services
